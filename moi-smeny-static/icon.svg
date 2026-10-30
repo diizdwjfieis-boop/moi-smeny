@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#10b981"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- Calendar grid -->
+  <g fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round">
+    <rect x="120" y="148" width="272" height="232" rx="20"/>
+    <line x1="120" y1="210" x2="392" y2="210"/>
+    <line x1="211" y1="210" x2="211" y2="380"/>
+    <line x1="301" y1="210" x2="301" y2="380"/>
+    <line x1="160" y1="270" x2="352" y2="270"/>
+    <line x1="160" y1="330" x2="352" y2="330"/>
+  </g>
+  <!-- Top hangers -->
+  <g stroke="#ffffff" stroke-width="14" stroke-linecap="round">
+    <line x1="180" y1="118" x2="180" y2="148"/>
+    <line x1="332" y1="118" x2="332" y2="148"/>
+  </g>
+  <!-- Worked day marker -->
+  <circle cx="186" cy="240" r="14" fill="#fde047"/>
+  <circle cx="276" cy="240" r="14" fill="#fde047"/>
+  <circle cx="366" cy="240" r="14" fill="#fde047"/>
+  <!-- Ruble symbol -->
+  <text x="256" y="475" font-family="Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff" text-anchor="middle">₽</text>
+</svg>
